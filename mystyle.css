@@ -1,13 +1,13 @@
 h1 {
-    color:darkgreen;
-    background-color: black;
+    color: black;
+    background-color: darkorchid;
     text-align: center;
-   font: bold 2.5em/3em normal 'Franklin Gothic  Medium', 'Arial Narrow', Arial, sans-serif
+   font: normal 2.5em/2em  Georgia, 'Times New Roman', Times, serif;
    
 }
 
 h3 {
-    color: darkseagreen;
+    color: darkblue;
 }
 
 
@@ -15,9 +15,9 @@ h3 {
 
 body {
 
-    background-color: lightgoldenrodyellow;
-    color: darkslategray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
 }
 
