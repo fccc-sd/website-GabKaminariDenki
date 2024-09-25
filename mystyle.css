@@ -75,3 +75,36 @@ nav a:active
     text-decoration: underline;
 
 }
+
+table
+{
+    border: solid 2px black;
+    border-collapse: collapse;
+    background-color: rgb(64, 35, 92);
+    
+}
+
+tr, td, th
+{
+    border: solid 2px black;
+    padding: 5px; 
+    width: 100px;
+    text-align: center;
+    
+}
+tr:hover
+{
+    color:aliceblue;
+}
+th
+{
+background-color: rgb(35, 7, 71);
+
+}
+
+caption
+{
+    caption-side: top;
+    font-weight: bold;
+    margin: 5px;
+}
