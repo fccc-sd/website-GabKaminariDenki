@@ -6,7 +6,7 @@
    
 }
  
-h3 {
+h3, h6 {
     color: darkblue;
     font-weight: bold;
 }
@@ -19,9 +19,6 @@ body {
     font-weight: normal;
 }
 
-h6 {
-    color: darkblue;
-}
 
 main {
     color: rgb(121, 123, 218);
@@ -30,4 +27,84 @@ main {
  
 #importantstuff {
     color: rgb(0, 0, 94);
+}
+
+ul
+{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+strong {
+    color: blue;
+}
+
+nav {
+    background-color: palevioletred ;
+    line-height: 5em;
+   display: block;
+
+}
+nav li 
+{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+nav a:link 
+{
+ color: black;
+ text-decoration: none;
+
+}
+
+nav a:visited
+{
+ color: black;
+
+}
+
+nav a:hover
+{
+    text-decoration:underline;
+}
+nav a:active
+{
+    color: darkblue;
+    text-decoration: underline;
+
+}
+
+table
+{
+    border: solid 2px black;
+    border-collapse: collapse;
+    background-color: rgb(64, 35, 92);
+    
+}
+
+tr, td, th
+{
+    border: solid 2px black;
+    padding: 5px; 
+    width: 100px;
+    text-align: center;
+    
+}
+tr:hover
+{
+    color:aliceblue;
+}
+th
+{
+background-color: rgb(35, 7, 71);
+
+}
+
+caption
+{
+    caption-side: top;
+    font-weight: bold;
+    margin: 5px;
 }
