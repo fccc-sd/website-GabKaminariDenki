@@ -1,18 +1,22 @@
  header{
-    color: black;
-    background-color: darkorchid;
+    color: rgb(121, 123, 218);
+    border: dotted thick rgb(132, 39, 255);
+    padding: 20px;
+    margin: 10px;
     text-align: center;
    font: normal 2.5em/2em  Georgia, 'Times New Roman', Times, serif;
    
 }
  
 h3, h6 {
-    color: darkblue;
+    color: rgb(132, 39, 255);
     font-weight: bold;
+   
 }
-body {
-
-    background-color: lightblue;
+body 
+{
+    background-image: url(../images/lightpurple.jpg);
+    background-attachment: fixed;
     color: rgb(121, 123, 218);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
@@ -26,7 +30,7 @@ main {
 }
  
 #importantstuff {
-    color: rgb(0, 0, 94);
+    color: rgb(175, 141, 255);
 }
 
 ul
@@ -40,7 +44,7 @@ strong {
 }
 
 nav {
-    background-color: palevioletred ;
+    background-color: rgb(71, 39, 145) ;
     line-height: 5em;
    display: block;
 
@@ -108,3 +112,19 @@ caption
     font-weight: bold;
     margin: 5px;
 }
+
+img
+{
+    float: right; 
+    margin: 20px;
+
+}
+
+h3
+{
+    float: center;
+    margin: 20px;
+
+}
+
+
