@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Form</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pizza Form</h1>
+
+        <h4> Order Here</h4>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Home Page">Home</a> </li>
+            <li><a href="page2.html" title="Pets and Hobbies"> Pets and Hobbies </a> </li>
+            <li> <a href="CCPtable.html" title="CCP Tables">CCP Tables</a> </li>
+            <li> <a href="page3.html" title="My Games"> My Games</a></li>
+            <li> <a href="myKarateJourney.html" title="My Karate Journey"> My Karate Journey</a></li>
+            <li><a href="pizzaform.html" title="Pizza Form"> Pizza Form</a></li>
+        </ul>
+    </nav>
+
+    <form id="pizza_form" action="myPizzaForm.php" method="post"></form>
+    
+    <h3>Please enter the following information for your order.</h3> <br><br>
+    Customer Name: <input type="text" name="Customer Name" id="Customer Name" autofocus
+        placeholder="Enter your name"><br>
+    <br>Address: <input type="text" name="address" id="address" autofocus placeholder="Enter your address"> <br>
+    <br> Phone Number: <input type="text" name="phone number" id="phone number" autofocus
+        placeholder="Enter your phone number">
+
+    <h3>Choose your size of pizza(s)</h3>
+    <fieldset>
+        <input type="checkbox" name="12in" id="12in" value="12in">
+        <label for="12in"> 12in</label><br>
+        <input type="checkbox" name="16in" id="16in" value="16in">
+        <label for="16in"> 16in</label><br>
+        <input type="checkbox" name="18in" id="18in" value="18in">
+        <label for="18in"> 18in</label><br>
+    </fieldset><br>
+    <h3>Choose your toppings</h3>
+    <fieldset>
+        <input type="checkbox" name="pepperoni" id="pepperoni" value="pepperoni">
+        <label for="pepperoni"> Pepp.</label><br>
+        <input type="checkbox" name="bacon" id="bacon" value="bacon">
+        <label for="bacon"> Bacon</label><br>
+        <input type="checkbox" name="Extra cheese" id="Extra cheese" value="Extra cheese">
+        <label for="Extra cheese"> Extra Cheese</label><br>
+        <input type="checkbox" name="diced tomato" id="diced tomato" value="diced tomato">
+        <label for="diced tomato"> Diced Tomato</label><br>
+        <input type="checkbox" name="chicken" id="chicken" value="chicken">
+        <label for="chicken"> Chicken</label><br>
+    </fieldset><br><br>
+
+    <h3>Notes to the Cook</h3>
+    <textarea name="Notes" id="Notes" cols="50" rows="20" autofocus
+        placeholder="Enter your what you want done with your pizza(s)"></textarea><br><br>
+
+   
+        <p><input id="submit" type="submit" value="Submit"></p>
+
+    <footer>
+        <h6>Copyright &copy; 2024 Gabby</h6>
+
+    </footer>
+</body>
+
+</html>

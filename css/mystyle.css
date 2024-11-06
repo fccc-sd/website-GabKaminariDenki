@@ -127,4 +127,12 @@ h3
 
 }
 
+fieldset
+{
+color: (121, 123, 218);
+border: dotted thick;
+border-color: rgb(132, 39, 255);
+background-color: rgb(62, 5, 136);
 
+
+}
