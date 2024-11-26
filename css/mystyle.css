@@ -1,0 +1,138 @@
+ header{
+    color: rgb(121, 123, 218);
+    border: dotted thick rgb(132, 39, 255);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+   font: normal 2.5em/2em  Georgia, 'Times New Roman', Times, serif;
+   
+}
+ 
+h3, h6 {
+    color: rgb(132, 39, 255);
+    font-weight: bold;
+   
+}
+body 
+{
+    background-image: url(../images/lightpurple.jpg);
+    background-attachment: fixed;
+    color: rgb(121, 123, 218);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+
+main {
+    color: rgb(121, 123, 218);
+
+}
+ 
+#importantstuff {
+    color: rgb(175, 141, 255);
+}
+
+ul
+{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+strong {
+    color: blue;
+}
+
+nav {
+    background-color: rgb(71, 39, 145) ;
+    line-height: 5em;
+   display: block;
+
+}
+nav li 
+{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+nav a:link 
+{
+ color: black;
+ text-decoration: none;
+
+}
+
+nav a:visited
+{
+ color: black;
+
+}
+
+nav a:hover
+{
+    text-decoration:underline;
+}
+nav a:active
+{
+    color: darkblue;
+    text-decoration: underline;
+
+}
+
+table
+{
+    border: solid 2px black;
+    border-collapse: collapse;
+    background-color: rgb(64, 35, 92);
+    
+}
+
+tr, td, th
+{
+    border: solid 2px black;
+    padding: 5px; 
+    width: 100px;
+    text-align: center;
+    
+}
+tr:hover
+{
+    color:aliceblue;
+}
+th
+{
+background-color: rgb(35, 7, 71);
+
+}
+
+caption
+{
+    caption-side: top;
+    font-weight: bold;
+    margin: 5px;
+}
+
+img
+{
+    float: right; 
+    margin: 20px;
+
+}
+
+h3
+{
+    float: center;
+    margin: 20px;
+
+}
+
+fieldset
+{
+color: (121, 123, 218);
+border: dotted thick;
+border-color: rgb(132, 39, 255);
+background-color: rgb(62, 5, 136);
+
+
+}
