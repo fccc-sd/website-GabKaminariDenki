@@ -1,0 +1,133 @@
+/*the nav bar*/
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+#nav li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#nav a,
+em {
+    font-weight: none;
+}
+
+#nav a:link,
+a:visited {
+    color: black;
+}
+
+#nav a:hover,
+a:focus {
+    color: whitesmoke
+}
+
+/* the different pages in the website*/
+
+.page1 {
+    background-color: #D2B48C;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.page2 {
+    background-color: #eee88f;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.page3 {
+    background-color: #ba6e58;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+
+/*The headers of the website*/
+
+.heading {
+    text-decoration: underline;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+#border {
+    border: 2px solid #ffffff;
+    background-image: linear-gradient(45deg, #FAF9F6 0%, #C79D83 68%);
+}
+
+#border2 {
+    border: 2px solid black;
+    background-image: linear-gradient(45deg, #ebac79 0%, #e2d625 68%);
+}
+
+#border3 {
+    border: 2px solid black;
+    background-image: linear-gradient(45deg, #992222 0%, #c68139 68%);
+}
+
+
+/* the paragraphs of the website*/
+
+#summer {
+    text-align: left;
+}
+
+/*The titles of each section in summer*/
+
+#sumh2 {
+    text-align: center;
+}
+
+#facts {
+    text-align: center;
+}
+
+#fallh2 {
+    text-align: center;
+}
+
+/* IMAGES */
+
+/* #image {
+    size: 250px;
+    border-radius: 5%;
+    margin-top: 20px;
+} */
+
+
+/* ACCORDION */
+.accordion {
+  background-color: #636b2f;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #636b2f;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.active, .accordion:hover{
+    background-color: #4d5327;
+}
