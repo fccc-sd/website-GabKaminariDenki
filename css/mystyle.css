@@ -1,11 +1,16 @@
 /*the nav bar*/
 
 #nav ul {
+    display: flex;
     list-style: none;
-    padding: 10px;
-    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
 
-
+#nav li {
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 #nav a,
@@ -40,7 +45,7 @@ a:focus {
 }
 
 .page3 {
-    background-color:#ba6e58;
+    background-color: #ba6e58;
     background-attachment: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
@@ -91,4 +96,38 @@ a:focus {
 
 #fallh2 {
     text-align: center;
+}
+
+/* IMAGES */
+
+/* #image {
+    size: 250px;
+    border-radius: 5%;
+    margin-top: 20px;
+} */
+
+
+/* ACCORDION */
+.accordion {
+  background-color: #636b2f;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #636b2f;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.active, .accordion:hover{
+    background-color: #4d5327;
 }
